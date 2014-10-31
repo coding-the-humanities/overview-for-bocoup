@@ -18,15 +18,21 @@ angular polymer in the next few weeks.
 In a directory of the static website, we have our objective files in 
 which we develop our curriculum.  Initially we were thinking about 
 making our own file format, but we decided that this is too much for 
-the moment. Now we are using YAML
+the moment. Now we are using YAML. 
+
+Still, the basic idea seems the same. We want a very lightweight data
+format that allows everyone to contribute and add their objectives, 
+projects, and curriculums extremely easily.
 
 MOBILE APP: git@github.com:coding-the-humanities/unacademic.git
 
 The third is the mobile app of unacademic that Jan Hein is working one.
-This one uses the same yaml objectives, but uses yaml, gulp, angular,
-and ionic. Also, this version is fully tested and uses es6 for its
-models. In a way the mobile app is leading the development of our
-webbased version.
+It uses yaml, gulp, angular, and ionic. Also, this version is fully
+tested and uses es6 for its models. In a way the mobile app is leading
+the development of our webbased version.
+
+This one uses the same yaml objectives. We should separate that part out 
+in a separate git submodule quite soon.
 
 PROJECT SITE: git@github.com:coding-the-humanities/site.git
 
